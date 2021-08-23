@@ -1,0 +1,73 @@
+<html>
+<title>signup form</title>
+
+<head>
+  <style>
+    #legend {
+      color: black;
+      font-family: cursive;
+      font-size: x-large;
+    }
+
+    #fieldset {
+      border-radius: 15px;
+      border-color: greenyellow;
+    }
+    #form{
+      color: blue;
+      margin: 15px;
+      padding: 10px;
+      
+    }
+    #submit{
+      border-radius: 25px ;
+      background-color: brown;
+    }
+    #reset{
+      border-radius: 25px;
+      background-color: brown;
+  
+  </style>
+</head>
+
+<body  bgcolor="lightcoral" >
+  <fieldset id="fieldset" style="width: 450px;">
+    <legend id="legend">Signup</legend>
+    <form id="form">
+      Name: <input type="text"> <br> <br>
+      Last Name: <input type="text"> <br> <br>
+      Email Address: <input type="email"> <br><br>
+      Username: <input type="text"> <br> <br>
+      Password: <input type="password"> <br> <br>
+      Confirm Password: <input type="password"> <br> <br>
+      Mobile Number: <input type="Number"> <br> <br>
+      Gender: <input type="radio" name="r1" checked>Male
+      <input type="radio" name="r1">Female <br><br>
+      Date of Birth: <input type="date"> <br> <br>
+      Address: <textarea name="" cols="10" rows="5"></textarea> <br><br>
+      Educational Qualificaitons:
+<select id="select">
+  <option value="Undergraduate">Undergraduate</option checked>
+  <option value="Postgraduate">Postgraduate</option>
+  <option value="Matriculate">Matriculate</option>
+</select> <br><br>
+<details>
+  <summary>
+      Terms and conditions
+  </summary>
+<ol type="A">
+    <li>All the fields are mandatory </li>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, numquam!</li>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, numquam!</li>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, numquam!</li>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, numquam!</li>
+</ol>
+</details> <br><br>
+<input type="checkbox"> I had read all the terms and conditions <br> <br>
+<input type="submit" id="submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" id="reset"> 
+    </form>
+  </fieldset>
+</body>
+
+</html>
