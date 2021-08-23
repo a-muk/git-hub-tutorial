@@ -1,2 +1,4 @@
-# git-hub-tutorial
-we will learn here abut git and github
+Html form 
+
+This project is for absolute begginers
+we have to make this form look better you can suggest me some changes also
